@@ -87,3 +87,23 @@
 .fw-8{
     font-weight: 800;
 }
+
+
+
+
+
+@media (min-width: 100px) {
+    .fs-7 {
+        font-size: 15px;
+    }
+    .fs-8{
+        font-size: 10px;
+    }
+    .ps-7{
+        padding-left: 0;
+    }
+    .get-btn{
+        top: 88px;
+        right: -6px;
+    }
+}
