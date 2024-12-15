@@ -57,8 +57,11 @@
   margin-bottom: 10px;
   font-weight: 700;
 }
-input:focus-visible {
-    outline: none;
+.form-control {
+  width: 66%;
+}
+.form-control:focus {
+    box-shadow: none;
 }
 .get-btn {
   position: absolute;
