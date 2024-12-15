@@ -1,109 +1,106 @@
 .navbar-brand {
-    font-weight: bold;
-    color: #000;
+  font-weight: bold;
+  color: #000;
 }
 
 .navbar-brand img {
-    width: 30px;
-    height: 30px;
-    margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
 }
 
 .nav-link {
-    color: black !important;
+  color: black !important;
 }
 
 .btn-signin {
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    padding: 6px 24px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 6px 24px;
 }
 .hero-section {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .hero-text {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .hero-button {
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .hero-illustration img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .feature-card {
-    padding: 22px 28px;
-    border: 2px solid #000;
-    border-radius: 10px;
+  padding: 22px 28px;
+  border: 2px solid #000;
+  border-radius: 10px;
 }
 
 .feature-card img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
 }
 
 .feature-card h3 {
-    margin-bottom: 10px;
-    font-weight: 700;
+  margin-bottom: 10px;
+  font-weight: 700;
 }
-.form-control{
-    padding: 25px 25px !important;
-    font-size: 22px !important;
-    border: 2px solid #000 !important;
+input:focus-visible {
+    outline: none;
 }
-.get-btn{
-    position: absolute;
-    top: 19px;
-    right: 30px;
-    background: #000;
-    padding: 10px 38px;
-    border-radius: 10px;
-    color: #fff;
-    cursor: pointer;
+.get-btn {
+  position: absolute;
+  top: 19px;
+  right: 30px;
+  background: #000;
+  padding: 10px 38px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
 }
-.fs-7{
-    font-size: 64px;
+.fs-7 {
+  font-size: 4rem;
 }
-.fs-8{
-    font-size: 30px;
+.fs-8 {
+  font-size: 1.9rem;
 }
-.ps-7{
-    padding-left: 95px;
+.ps-7 {
+  padding-left: 95px;
 }
-.fs-9{
-    font-size: 3rem !important;
+.fs-9 {
+  font-size: 3rem;
 }
-.fw-8{
-    font-weight: 800;
+.fw-8 {
+  font-weight: 800;
 }
 
-
-
-
-
-@media (min-width: 100px) {
-    .fs-7 {
-        font-size: 15px;
-    }
-    .fs-8{
-        font-size: 10px;
-    }
-    .ps-7{
-        padding-left: 0;
-    }
-    .get-btn{
-        top: 88px;
-        right: -6px;
-    }
+@media (max-width: 550px) {
+  .fs-7 {
+    font-size: 2rem;
+  }
+  .fs-9{
+    font-size: 2rem;
+  }
+  .fs-8 {
+    font-size: 1rem;
+  }
+  .ps-7 {
+    padding-left: 0;
+  }
+  .get-btn {
+    top: 88px;
+    right: -6px;
+  }
 }
